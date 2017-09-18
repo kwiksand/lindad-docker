@@ -1,0 +1,9 @@
+---
+daemon:
+#  build: .
+  image: quay.io/kwiksand/lindad:latest
+  ports:
+   - "3821:3821"
+   - "3822:3822"
+  volumes:
+   - /media/crypto/linda:/home/linda/.linda

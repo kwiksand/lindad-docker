@@ -1,0 +1,9 @@
+#daemon=1
+server=1
+listen=1
+staking=0
+rpcuser=lindarpc
+rpcpassword=CHANGE_PASSWORD
+rpcallowip=127.0.0.1
+rpcport=3822
+port=3821
